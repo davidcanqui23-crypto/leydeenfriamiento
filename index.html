@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ley de Enfriamiento</title>
+    <link rel="stylesheet" href="css/estilos1.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Ley de enfriamiento</h1>
+        
+        <div class="form-group">
+            <label for="tO">Temperatura inicial:</label>
+            <input type="number" id="tO">
+        </div>
+
+        <div class="form-group">
+            <label for="ts">Temperatura del entorno:</label>
+            <input type="number" id="ts">
+        </div>
+
+        <div class="form-group">
+            <label for="k">Constante:</label>
+            <input type="number" id="k" step="0.01">
+        </div>
+
+        <div class="form-group">
+            <label for="t">Tiempo en horas:</label>
+            <input type="number" id="t" step="0.1">
+        </div>
+
+        <button id="btnCalcular">Calcular Temperatura</button>
+
+        <h2>Respuesta</h2>
+        <p id="res"></p>
+    </div>
+
+    <script src="js/ej1.js"></script>
+</body>
+</html>
